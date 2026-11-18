@@ -1,0 +1,11 @@
+{
+  "name": "shqwu-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Engineer portfolio website & zero-dependency admin CMS",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node lib/export.js"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,134 @@
+{
+  "site": {
+    "title": "shqwu — Engineer Portfolio",
+    "description": "工程師個人作品集：系統、工具與實驗。",
+    "url": "https://shqwu.com"
+  },
+  "profile": {
+    "name": "shqwu",
+    "title": "Software Engineer · Student",
+    "tagline": "把想法做成能跑的系統。從後端到介面，從模擬到工具。",
+    "bio": "這裡是自我介紹。請到後台「個人資料」改成你自己的內容。\n\n可以寫你在讀什麼、對什麼技術有興趣、正在做什麼專案。空一行就是新段落。",
+    "location": "Taiwan",
+    "timezone": "Asia/Taipei",
+    "status": "Open to internships & collaborations",
+    "email": "hello@shqwu.com",
+    "avatar": "",
+    "skills": [
+      "Node.js",
+      "TypeScript",
+      "Python",
+      "PyTorch",
+      "HTML / CSS",
+      "Git",
+      "Cloudflare"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/louqing2763"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "seed-cms",
+      "title": "個人極簡工程師品牌官網與全能後台 CMS 系統",
+      "subtitle": "Engineer Portfolio Website & Full-featured Admin CMS Platform",
+      "slug": "portfolio-cms",
+      "year": "2026",
+      "role": "Full-stack · Design",
+      "summary": "黑白極簡 Bento Grid 品牌網站，加上零外部套件依賴的 Node.js 後台 CMS。",
+      "description": "結合高對比純粹黑白極簡主義與現代 Bento Grid 網格佈局，構建工程師個人品牌入口網站。同時打造零外部套件依賴的高效後台 CMS 管理系統，具備完整的 RESTful API 與即時檔案持久化機制。\n\n使用者可透過後台介面直覺新增／修改作品集、上傳照片、調整個人首頁與獲獎紀錄，並具備靜態輸出相容性。\n\n- 純黑白工程極簡美學與 Bento Grid 響應式佈局\n- 輕量高速 Node.js 後端伺服器（原生 API，零外部依賴）\n- 視覺化後台 CMS：作品集、個人自述、競賽榮譽、證照全動態管理\n- 拖曳式圖片上傳與預覽\n- 雙向同步持久化：JSON 動態載入與靜態 HTML 輸出",
+      "tags": [
+        "Node.js",
+        "Vanilla JS",
+        "CSS Grid",
+        "REST API",
+        "Cloudflare Pages"
+      ],
+      "cover": "/uploads/cover-portfolio-cms.png",
+      "gallery": [],
+      "links": [
+        {
+          "label": "Live",
+          "url": "https://shqwu.com"
+        }
+      ],
+      "featured": true,
+      "visible": true
+    },
+    {
+      "id": "seed-sharks",
+      "title": "dsh-ascii-sharks",
+      "subtitle": "ASCII Ocean Plugin for DeepSeek Harness",
+      "slug": "dsh-ascii-sharks",
+      "year": "2026",
+      "role": "Plugin Developer",
+      "summary": "把一片會隨對話節奏起浪的 ASCII 海洋放到 DeepSeek Harness 的 Web 介面後面。",
+      "description": "逐格光柵化的魚群與鯊魚、會隨 AI 生成節奏起浪的「思考潮汐」，以及把訊息卡片換成液態玻璃效果的 UI 外掛。\n\n- 思考潮汐：AI 生成時鯊魚主動追獵、海面起浪，停止後退潮\n- 液態玻璃：回覆卡片、輸入框各自的毛玻璃層\n- 互動：滑鼠靠近魚群會散開，點水面有漣漪\n- 零建置依賴：用 Node 內建的 TypeScript 型別剝除加上 80 行 mini-bundler 打包\n\n引擎移植自 stackedlol/ascii-sharks（MIT）。",
+      "tags": [
+        "TypeScript",
+        "Canvas",
+        "Plugin",
+        "Zero-dependency"
+      ],
+      "cover": "/uploads/cover-ascii-sharks.png",
+      "gallery": [],
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/louqing2763/dsh-ascii-sharks"
+        }
+      ],
+      "featured": true,
+      "visible": true
+    },
+    {
+      "id": "seed-cyberfly",
+      "title": "cyber-fly",
+      "subtitle": "Connectome-driven Live2D Avatar",
+      "slug": "cyber-fly",
+      "year": "2026",
+      "role": "Research & Engineering",
+      "summary": "用約 14 萬個神經元的果蠅全腦模型，即時驅動 VTube Studio 角色的表情與動作。",
+      "description": "以 FlyWire 連接組建立果蠅全腦模型，用自製 PyTorch 引擎即時模擬，並把特定神經路徑的活動對應到 Live2D 角色的嘴巴、頭部與眼睛。\n\n- 進食、轉向、觸碰三條感覺到動作的神經通道\n- 引擎結果與 Brian2 對照驗證\n- 瀏覽器刺激面板：投餵、戳一下、左右觸角\n\n（此專案未公開，預設在網站上隱藏。要公開請到後台打開「公開顯示」。）",
+      "tags": [
+        "Python",
+        "PyTorch",
+        "Neuroscience",
+        "VTube Studio"
+      ],
+      "cover": "/uploads/cover-cyber-fly.png",
+      "gallery": [],
+      "links": [],
+      "featured": true,
+      "visible": false
+    }
+  ],
+  "awards": [
+    {
+      "id": "seed-award",
+      "title": "（範例）某某競賽",
+      "event": "主辦單位 · 組別",
+      "rank": "第一名",
+      "date": "2026.01",
+      "description": "一句話描述得獎作品。這是範例，預設隱藏。",
+      "image": "",
+      "link": "",
+      "visible": false
+    }
+  ],
+  "certifications": [
+    {
+      "id": "seed-cert",
+      "name": "（範例）證照名稱",
+      "issuer": "發證單位",
+      "date": "2026.01",
+      "credentialId": "",
+      "url": "",
+      "image": "",
+      "visible": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>CMS — 後台</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='black'/%3E%3Crect x='8' y='8' width='16' height='16' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="side__brand">■ CMS</div>
+    <nav class="side__nav" id="nav">
+      <button data-view="profile">個人資料</button>
+      <button data-view="projects">作品集</button>
+      <button data-view="awards">競賽榮譽</button>
+      <button data-view="certifications">證照</button>
+      <button data-view="site">網站設定</button>
+    </nav>
+    <div class="side__foot">
+      <a class="side__link" href="/" target="_blank" rel="noopener">查看網站 ↗</a>
+      <button class="btn btn--block" id="exportBtn">輸出靜態網站</button>
+      <p class="side__status" id="exportStatus">—</p>
+    </div>
+  </aside>
+  <main class="main" id="main"><p class="loading">載入中…</p></main>
+</div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<script src="/admin/admin.js"></script>
+</body>
+</html>
